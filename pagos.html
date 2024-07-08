@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago con Wompi</title>
+</head>
+<body>
+    <form action="php/procesar_pagowompi.php" method="post">
+        <input type="text" name="amount" placeholder="Monto (COP)">
+        <input type="text" name="description" placeholder="Descripción">
+        <input type="email" name="email" placeholder="Correo del comprador">
+        <input type="text" name="card_token" placeholder="Token de la tarjeta">
+        <button type="submit">Pagar</button>
+    </form>
+</body>
+</html>
